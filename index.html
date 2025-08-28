@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ Ys 易创之源</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 动态背景容器 -->
+    <div class="stars"></div>
+    <div class="floating-shapes"></div>
+
+    <div class="container">
+        <header class="header">
+            <div class="header-icon">✨</div>
+            <h1>- |Ysun| -</h1>
+            <p> -  |宇宙有万千星辰，而我的光，只为你一人导航。|  -</p>
+        </header>
+
+        <main class="projects-container">
+            <!-- 项目卡片将在这里通过JavaScript动态生成 -->
+            <div id="projectsContainer" class="projects-grid"></div>
+
+            <!-- 当没有项目时显示的空状态 -->
+            <div id="emptyState" class="empty-state" style="display: none;">
+                <div class="empty-icon">📄</div>
+                <p>暂无项目文件</p>
+                <p class="empty-hint">请在 script.js 中添加项目配置</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- 引用外部JavaScript文件 -->
+    <script src="script.js"></script>
+</body>
+</html>
