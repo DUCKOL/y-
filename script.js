@@ -13,7 +13,14 @@ const projects = [
         // 当提供了url时，将优先跳转到此url
         url: "https://yhep.vercel.app",
         description: "论文写作指令",
-        type: "工具"
+        type: "文档"
+    },
+    {
+        name: "论文查重网站",
+        // 当提供了url时，将优先跳转到此url
+        url: "https://ycha.vercel.app",
+        description: "一个论文查重网站点击跳转",
+        type: "文档"
     },
     {
         name: "创意AI工具",
@@ -31,11 +38,41 @@ const projects = [
     }
     ,
     {
-        name: "无限白板（在线）",
+        name: "AI绘画生成器",
         // 当提供了url时，将优先跳转到此url
-        url: "https://ydraw.vercel.app",
-        description: "无限白板，创意无限",
+        url: "https://yimg.ysunyang.dpdns.org",
+        description: "Yimg,一个无限AI绘画的网站",
         type: "设计"
+    }
+    ,
+    {
+        name: "AI绘画提示词生成器",
+        // 当提供了url时，将优先跳转到此url
+        url: "https://yprt.vercel.app/zh",
+        description: "一个AI绘画构想的AI绘画提示词的网站",
+        type: "设计"
+    }
+    ,
+    {
+        name: "免费影视",
+        // 当提供了url时，将优先跳转到此url
+        url: "https://ytv.ysunyang.dpdns.org",
+        description: "YTV一个观看所有影片的网站",
+        type: "工具"
+    },
+    {
+        name: "订阅转换器",
+        // 当提供了url时，将优先跳转到此url
+        url: "https://ysub.vercel.app",
+        description: "一个订阅链接转换器，各种节点转换为clash格式",
+        type: "工具"
+    },
+    {
+        name: "快捷绑定",
+        // 当提供了url时，将优先跳转到此url
+        url: "https://ymotion-two.vercel.app",
+        description: "一个3D快速绑定的网站",
+        type: "网站"
     }
     // 添加新项目请按照上面的格式继续添加...
     // 
@@ -247,4 +284,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 添加入场动画
     document.body.classList.add('loaded');
+
 });
